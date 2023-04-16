@@ -1,5 +1,5 @@
 # BackendOfWebApps
 
-### Main Branch is basically Day 1 which is of first 50 minutes of the following video
+### This is 1:50:00 of the total course
 
 [Master the BACKEND in One Video: The Ultimate Resource for Developers](https://www.youtube.com/watch?v=cGAdC4A5fF4&t=58s)
