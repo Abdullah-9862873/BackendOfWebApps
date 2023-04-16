@@ -11,6 +11,8 @@ console.log(Obj.name2);
 console.log(Obj.name3);
 console.log(Obj.default); 
 
+// You can access the routes using the req.url and you can access the methods which are Put(for update), Post(for creatioin), get(for reading data), delete (To delete data)
+
 
 // console.log(name);
 // console.log(name2 + " " + name3);
