@@ -1,4 +1,3 @@
-Make the following updated according to a good format of ReadMe.md
 # BackendOfWebApps
 
 ### *This is 2:56:00 of the total course*
