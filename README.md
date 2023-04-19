@@ -1,6 +1,6 @@
 # BackendOfWebApps
 
-### *This is 2:56:00 of the total course*
+### *This is 4:00:00 of the total course*
 
 **Following topics are covered in this:** \
 *NodeJs Basics*\
