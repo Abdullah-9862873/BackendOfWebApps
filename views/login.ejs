@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="container">
+    <form method="post" action="/login">
+      <h2>Login</h2>
+      <div class="input-group">
+        <label for="userName">userName:</label>
+        <input type="text" id="userName" name="userName" value="<%=locals.userName%>">
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <input type="submit" value="Login">
+    </form>
+
+    <br><br>
+    <div class="error">
+      <p> <%= locals.message %></p>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
