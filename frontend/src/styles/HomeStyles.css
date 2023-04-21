@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.login {
+  margin-bottom: 2rem;
+}
+
+.login input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #1c1c1e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.todosContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .todosContainer {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+}
